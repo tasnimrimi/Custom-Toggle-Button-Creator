@@ -29,11 +29,11 @@ The workspace is organized into three optimized zones:
 
 ### 🛠️ Tech Stack
 
-* **Framework:** React / Next.js
-* **Styling:** Tailwind CSS (for layout and utility-first design)
-* **Animations:** Framer Motion (handling the logic for the toggle transitions)
+* **Framework:** Flutter / Dart
+* **Design & Prototyping:** Figma
+* **Animations:** Flutter Animation Library
 * **UI Components:** Custom Glassmorphism-inspired interface
-* **Icons:** Lucide-React / Custom SVG Upload System
+* **Icons:** Integrated Custom SVG Upload System
 
 ---
 
@@ -52,7 +52,7 @@ The workspace is organized into three optimized zones:
     npm run dev
     ```
 4.  **Open in browser:**
-    Navigate to `http://localhost:3000` to start creating.
+    Navigate to `http://localhost:50045/` to start creating.
 
 ---
 
@@ -68,4 +68,3 @@ Contributions are what make the open-source community such an amazing place to l
 
 ---
 
-**Would you like me to include a section with the specific code snippet for the "Copy Tailwind Class" logic?**
