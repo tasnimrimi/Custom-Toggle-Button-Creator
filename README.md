@@ -1,67 +1,71 @@
-Switch Creation Tool 🎨
-A sleek, intuitive web application designed for developers and UI/UX designers to visually craft custom toggle switches. Whether you need a simple "On/Off" switch or a complex "Day/Night" mode transition, this tool lets you design, preview, and export your styles instantly.
+## 🎚️ Switch Creation Tool
 
-✨ Features
-Visual Editor: Real-time preview with a "Split View" to see how your toggle looks in both Light and Dark modes simultaneously.
+A high-fidelity, professional-grade UI component builder designed to bridge the gap between design and development. This tool allows users to visually architect custom toggle switches, fine-tune animations, and export production-ready code in seconds.
 
-Highly Customizable:
+---
 
-Layout & Size: Precision control over width, height, and inner padding.
+### 🚀 Key Features
 
-Appearance: Custom hex-code selectors for Accent, Thumb, and Border colors.
+* **Dual-State Preview:** Toggle between "Split View" and "Single View" to see how your designs behave in both Light and Dark modes simultaneously.
+* **Granular Property Control:**
+    * **Layout & Size:** Adjust width, height, and inner padding with pixel-perfect precision.
+    * **Appearance:** Customize Hex colors for accents, thumbs, and borders.
+    * **Effects:** Toggle inner shadows, transition glows, and interactive click sounds.
+* **Animation Engine:** Choose from various motion presets like `Slide (Standard)`, `Bounce`, or `Ease-in-out`.
+* **Asset Management:** Use built-in icon presets (Sun, Moon, Bulb, Star) or **upload your own custom SVGs** as lightning-fast vector assets.
+* **Developer-First Export:** Instantly generate and copy **Tailwind CSS classes** or configuration objects to drop directly into your project.
 
-Effects: Toggleable inner shadows, transition glows, and even click sound feedback.
+---
 
-Animations: Choose from various movement styles (Slide, Bounce, Fade, etc.).
+### 🎨 The Interface
 
-Icon Library: Built-in presets for common themes (Sun/Moon, Morning/Night, Bulb/Star) or upload your own SVGs.
+The workspace is organized into three optimized zones:
 
-One-Click Export: Instantly copy your design as a Tailwind CSS class or a reusable component.
+1.  **Style Sidebar (Left):** Access pre-defined toggle templates and a library of state-specific icons (Light/Dark).
+2.  **The Canvas (Center):** A live, interactive staging area with zoom controls (up to 100%+) and mobile/desktop viewport switching.
+3.  **Properties Panel (Right):** A deep-dive customization suite for CSS properties, animations, and the "Deploy" workflow.
 
-🚀 Getting Started
-Prerequisites
-A modern web browser (Chrome, Firefox, or Edge recommended).
+---
 
-Your favorite code editor to paste the exported styles.
+### 🛠️ Tech Stack
 
-How to use
-Select a Style: Choose a base template from the left sidebar (Round, Square, or Text-based).
+* **Framework:** React / Next.js
+* **Styling:** Tailwind CSS (for layout and utility-first design)
+* **Animations:** Framer Motion (handling the logic for the toggle transitions)
+* **UI Components:** Custom Glassmorphism-inspired interface
+* **Icons:** Lucide-React / Custom SVG Upload System
 
-Pick Your Icons: Define the "Light State" and "Dark State" visuals.
+---
 
-Refine the UI: Use the right sidebar to adjust dimensions and colors.
+### 💻 Local Development
 
-Preview: Switch between Mobile and Desktop views to ensure responsiveness.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/switch-creation-tool.git
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+4.  **Open in browser:**
+    Navigate to `http://localhost:3000` to start creating.
 
-Deploy: Click "Copy Tailwind Class" and paste it directly into your project!
+---
 
-🛠️ Tech Stack
-Frontend: React / Next.js
+### 📜 Contributing
 
-Styling: Tailwind CSS
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-State Management: Framer Motion (for smooth animations)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Assets: Lucide Icons / Custom SVG support
+---
 
-📸 Interface Preview
-The editor features a dark-themed, professional UI designed to keep your focus on the design:
-
-Left Panel: Toggle Styles, Icon Selection, and Saved Projects.
-
-Center Stage: Interactive canvas with zoom and split-view capabilities.
-
-Right Panel: Granular property controls and export buttons.
-
-🤝 Contributing
-Have an idea for a new animation style or a toggle effect?
-
-Fork the Project.
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
-
-Commit your Changes (git commit -m 'Add some AmazingFeature').
-
-Push to the Branch (git push origin feature/AmazingFeature).
-
-Open a Pull Request.
+**Would you like me to include a section with the specific code snippet for the "Copy Tailwind Class" logic?**
