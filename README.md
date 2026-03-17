@@ -23,7 +23,7 @@ The workspace is organized into three optimized zones:
 
 1.  **Style Sidebar (Left):** Access pre-defined toggle templates and a library of state-specific icons (Light/Dark).
 2.  **The Canvas (Center):** A live, interactive staging area with zoom controls (up to 100%+) and mobile/desktop viewport switching.
-3.  **Properties Panel (Right):** A deep-dive customization suite for CSS properties, animations, and the "Deploy" workflow.
+3.  **Properties Panel (Right):** A deep-dive customization suite for CSS properties.
 
 ---
 
